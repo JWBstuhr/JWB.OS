@@ -80,7 +80,7 @@ elseif nOption == 3 then
  shell.run(".back")
 elseif nOption == 4 then
  if fs.exists("falling") == false then
-  shell.run("wget https://github.com/JWBstuhr/JWB.OS/blob/main/falling.lua falling")
+  shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS/main/falling.lua falling")
  end
  shell.run("fg falling")
  shell.run(".back")
