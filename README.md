@@ -21,6 +21,7 @@ in the Computer Shell.
 # Guide to Usage
 
 **JWB.OS**
+
 Upon boot, you'll be given some options.
 \[ Files \]
 \[ Command \]
@@ -41,6 +42,7 @@ Shutdown will turn off the computer.
 OS Manager will allow you to either Update or Uninstall the OS.
 
 **JWBUtility**
+
 Pretty simple to understand.
 You select the number of the action you want to do.
 Download, remove, or update the utility.
