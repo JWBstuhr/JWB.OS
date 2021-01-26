@@ -25,5 +25,5 @@ in the Computer Shell.
 [**JWBUtility**](https://github.com/JWBstuhr/JWB.OS/wiki/JWBUtility)
 
 # The Programmer's Guide to the Bullshit
-It's no secret, I'm a terrible programmer.
+It's no secret, I'm terrible at making understandable code.
 [So here's a guide to all the bullshit.](https://github.com/JWBstuhr/JWB.OS/wiki/The-Programmer's-Guide-to-the-Bullshit)
