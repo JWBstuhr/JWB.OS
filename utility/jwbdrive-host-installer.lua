@@ -9,7 +9,7 @@ local driveid = input
 print("When setup finishes, anyone with the channel will be able to add, remove, and download files from this drive.")
 print("Beginning setup.")
 
-shell.run("pastebin get bBWGztnb jwbdhbase")
+shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS/main/utility/jwbdhbase.lua jwbdhbase")
 
 local getbase = io.open("/jwbdhbase", "rb")
 local base = getbase:read"*a"
