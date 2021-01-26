@@ -24,16 +24,16 @@ if pnum == "x" then
 elseif pnum == "1" then
  if reinst == "1" then rprog("1") end
  print("Downloading JWBTools package...")
- shell.run("pastebin get w9rUWxzi jwbdocs")
- shell.run("pastebin get DTN5GVAm jwbnote")
- shell.run("pastebin get ZE75dMFz jwbtransfer")
- shell.run("pastebin get F6JRfcMg jwbdrive")
+ shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS/main/utility/jwbdocs.lua jwbdocs")
+ shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS/main/utility/jwbnote.lua jwbnote")
+ shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS/main/utility/jwbtransfer.lua jwbtransfer")
+ shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS/main/utility/jwbdrive.lua jwbdrive")
  print("Downloaded JWBDocs, JWBNote, JWBTransfer, and JWBDrive (Client).")
  sleep(2)
 elseif pnum == "2" then
  if reinst == "1" then shell.run("rm jwbdrive-host-installer") end
  print("Downloading JWBDrive Host Installer...")
- shell.run("pastebin get zAqQxWrZ jwbdrive-host-installer")
+ shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS/main/utility/jwbdrive-host-installer.lua jwbdrive-host-installer")
  print("Downloaded JWBDrive Host Installer.")
  sleep(2)
 elseif pnum == "3" then
@@ -131,7 +131,7 @@ while true do
   term.setCursorPos(1,1)
   print("Updating JWBUtility...")
   shell.run("rm jwbutility")
-  shell.run("pastebin get uemBxNKV jwbutility")
+  shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS/main/jwbutility.lua jwbutility")
   print("Updated. Exiting program...")
   sleep(2)
   term.clear()
