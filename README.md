@@ -48,6 +48,6 @@ You select the number of the action you want to do.
 Download, remove, or update the utility.
 Some programs are bundles, like JWBTools, so you'll be able to manage the individual programs by entering its number with an asterisk (\*) before it.
 
-# A Programmer's Guide to the Bullshit
+# The Programmer's Guide to the Bullshit
 It's no secret, I'm a terrible programmer.
 So here's a guide to all the bullshit.
