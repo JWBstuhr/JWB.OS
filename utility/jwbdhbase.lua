@@ -1,5 +1,4 @@
 local modem = peripheral.find("modem")
-driveid = tonumber(driveid)
 modem.open(driveid)
 
 while true do
