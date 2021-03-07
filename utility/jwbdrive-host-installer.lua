@@ -17,7 +17,7 @@ local base = getbase:read"*a"
 getbase:close()
 
 local config1 = "local driveid = "
-local product = config1 .. driveid .. .. '\n' .. base
+local product = config1 .. driveid .. '\n' .. base
 local createfile = fs.open("/startup.lua", "w")
 createfile.write(product)
 createfile.close()
