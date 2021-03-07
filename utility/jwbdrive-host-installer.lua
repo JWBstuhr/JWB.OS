@@ -6,6 +6,7 @@ print("These settings are final. You will have to reinstall if you want to chang
 print("What channel will other computers connect with?")
 input = read()
 local driveid = input
+local driveid = tonumber(input)
 print("When setup finishes, anyone with the channel will be able to add, remove, and download files from this drive.")
 print("Beginning setup.")
 
@@ -15,8 +16,8 @@ local getbase = io.open("/jwbdhbase", "rb")
 local base = getbase:read"*a"
 getbase:close()
 
-local config1 = "local driveid = \""
-local product = config1 .. driveid .. '\"' .. '\n' .. base
+local config1 = "local driveid = "
+local product = config1 .. driveid .. .. '\n' .. base
 local createfile = fs.open("/startup.lua", "w")
 createfile.write(product)
 createfile.close()
