@@ -13,6 +13,7 @@ if input == "1" then
  print("What is the ID/channel of the Drive you want to connect to?")
  input = read()
  local sendto = input
+ local sendto = tonumber(sendto)
  print("What is the filepath of the file you want to upload?")
  input = read()
  local sfilepath = input
@@ -33,6 +34,7 @@ elseif input == "2" then
  print("What is the ID/channel of the Drive you want to connect to?")
  input = read()
  local sendto = input
+ local sendto = tonumber(sendto)
  print("What is the filepath of the file you want to download?")
  input = read()
  local rfilepath = input
@@ -62,6 +64,7 @@ elseif input == "3" then
  print("What is the ID/channel of the Drive you want to connect to?")
  input = read()
  local sendto = input
+ local sendto = tonumber(sendto)
  print("What is the filepath for the file you want to delete?")
  input = read()
  local dfilepath = input
