@@ -6,7 +6,7 @@ print("These settings are final. You will have to reinstall if you want to chang
 print("What channel will other computers connect with?")
 input = read()
 local driveid = input
-local driveid = tonumber(input)
+local driveid = tonumber(driveid)
 print("When setup finishes, anyone with the channel will be able to add, remove, and download files from this drive.")
 print("Beginning setup.")
 
